@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	//Adding single line comment 
+	/* Adding multi line comment. This need to be closed by */ 
+	// One shortcut to add comment is ctrl+ forward slash and to remove comment too same shortcut is used.
+	
+	int _tom;
+    printf("Learning to add comment ");
+    return 0;
+}
