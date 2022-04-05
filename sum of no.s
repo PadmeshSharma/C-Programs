@@ -17,7 +17,6 @@ int main()
 {
 	int a=2;
   int b= 3;
-  sum=a+b;
-	printf("Sum of these two no.s is %d",sum);
+	printf("Sum of these two no.s is %d",a+b);
 	return 0;
 }
