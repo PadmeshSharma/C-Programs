@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int r,h;
+	printf("Enter radius and height of cylinder",&r,&h);
+	scanf("%d%d", &r,&h);
+	float pi=3.14;
+	printf("Area of this cylinder is %f",pi*r*r*h);
+	return 0;	
+}
