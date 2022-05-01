@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int P,R,T;
+	printf("Enter Principal Value,Rate and Time",&P,&R,&T);
+	scanf("%d%d%d",&P,&R,&T);
+	printf("Simple Interest is:%d",P*R*T/100);
+	return 0;	
+}
