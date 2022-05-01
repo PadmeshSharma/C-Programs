@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int a=4,b,c;
+  c=a+b;
+  b=5;
+	printf("Simple Interest is:%d",c);
+	return 0;	
+}
+//This will give 5 as output bcoz we are trying to use b before even defining it(error)
+
+
+CORRECT ONE: 
+#include<stdio.h>
+int main()
+{
+	int a=4,b,c;
+  b=5;
+  c=a+b;
+	printf("Simple Interest is:%d",c);
+	return 0;	
+}
