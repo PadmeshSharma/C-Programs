@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+	printf(The value of 4*5 is: %d\n",4*5);
+	//printf("The value of 4*5 is: %d\n",(4)(5)); is not valid as ()()doesn't imply multiplication, it needs * operator.
+	return 0 ;
+}
