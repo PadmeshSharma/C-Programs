@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,z;
+	printf("Enter the value of a and b");
+	scanf("%d%d",&a ,&b);
+	//b*a=z; is invalid
+	z=a*b; 	
+	printf("The value of Z is: %d\n",z);
+	return 0 ;
+}
