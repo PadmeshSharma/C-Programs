@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	printf("The value of remainder when 5 is divided by 2 is: %d\n",5%2);
+	printf("The value of remainder when -5is divided by 2 is: %d\n",-5%2);
+	printf("The value of remainder when 5 is divided by-2 is: %d\n",5%-2);
+	printf("The value of remainder when-5 is divided by-2 is: %d\n",-5%-2);
+	return 0 ;
+}
