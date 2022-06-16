@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	//printf("The value of 4^5 is %d \n",4^5); is not valid as ^ is not an operator for finding power
+	/* So,We will use pow(x,y) function with #include<math.h> and %f*/
+	printf("The value of 4^5 is %f \n",pow(4,5));
+ }
